@@ -20,9 +20,9 @@ public class ExerciseThread extends Thread{
     public void run(){
         try{
             
-        for(int x = 0; x <= 10500; x++){
+        for(int x = 0; x <= 100; x++){
             System.out.println(x);
-            sleep(5000);  
+            sleep(500);  
             int y = 0 ;
             if (x%50 == y && x!=0){
                 System.out.println("hi");
